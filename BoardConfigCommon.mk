@@ -116,3 +116,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # inherit from the proprietary version
 include vendor/htc/zara/BoardConfigVendor.mk
+
+# Prebuilt Chromium
+USE_PREBUILT_CHROMIUM := true
