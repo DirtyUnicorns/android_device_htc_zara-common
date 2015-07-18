@@ -119,3 +119,6 @@ include vendor/htc/zara/BoardConfigVendor.mk
 
 # Prebuilt Chromium
 USE_PREBUILT_CHROMIUM := true
+
+# Use smaller boot animation
+ZARACL_BOOTANIMATION := true
